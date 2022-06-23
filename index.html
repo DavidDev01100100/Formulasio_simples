@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Formulario Login</title>
+        <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+        <link href="assets/css/reset.css" type="text/css" rel="stylesheet">
+        <link href="assets/css/button.css" type="text/css" rel="stylesheet">
+        <link href="assets/css/radio.css" type="text/css" rel="stylesheet">
+        <link href="assets/css/conteudo.css" type="text/css" rel="stylesheet">
+        
+    </head>
+
+    <body>
+        <div class="registro">
+            <h1>Formulário de Cadastro</h1>
+        </div>
+        <div class="conteudo">
+            <form>
+                <div id="nome">
+                    <h2 class="nome">Nome e Sobrenome</h2>
+                <input class="primeironome" type="text" name="primeiro_nome">
+                <label class="primeirolabel">Nome</label>
+                <input class="sobrenome" type="text" name="sobre_nome">
+                <label class="sobrenomelabel">Sobrenome</label>
+                </div>
+
+                <h2 class="nome">Empresa</h2>
+                <input class="empresa" type="text" name="empresa">
+
+                <h2 class="nome">Email</h2>
+                <input class="email" type="text" name="email">
+
+                <h2 class="nome">Telefone com DDD</h2>
+                <input class="codigo" type="text" name="codigo_area">
+                <label class="codigo_area">DDD</label>
+                <input class="numero" type="text" name="phone">
+                <label class="numero-telefone">Telefone</label>
+
+                <h2 class="nome">Sexo</h2>
+                    <select class="opcoes" name="assunto">
+                        <option disabled="disabled" selected="selected">-- Selecione a Opção</option>
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                        <option>Outros</option>
+                    </select>
+
+                <h2 class="nivel">Você é iniciante?</h2>
+                    <label class="radio">
+                        <input class-"radio-one" type="radio" name="radio" checked="checked">
+                        <span class-"checkmark"></span>
+                        Sim
+                    </label>
+                    <label class="radio">
+                        <input class-"radio-two" type="radio" name="radio" checked="checked">
+                        <span class-"checkmark"></span>
+                        Não
+                    </label>
+                    <button type="submit">Enviar</button>
+
+
+            </form>
+        </div>
+    </body>
+</html>

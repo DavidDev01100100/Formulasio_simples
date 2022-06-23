@@ -1,0 +1,17 @@
+.radio {
+    display: inline-block;
+    padding-right: 70px;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-top: 15px;
+    color: white;
+}
+
+.radio input {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+}
+
